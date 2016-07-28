@@ -44,15 +44,25 @@ article {
 <div class="container">
 
 <header>
-   <h1>About</h1>
+   <h1>Home</h1>
 </header>
 
 <nav>
 
 
   <ul>
-    <li></li>
-    <li></li>
+    <li>
+      <%= link_to 'About', about_path %>
+
+    </li>
+
+    <li>
+       <%= link_to 'Home', root_path %>
+    </li>
+
+    <li>
+      <%= link_to 'Alpha-blog', articles_path %>
+    </li>
 
   </ul>
 </nav>
